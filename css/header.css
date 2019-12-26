@@ -1,0 +1,11 @@
+.breadcrumb-item+.breadcrumb-item:before{
+    content: "|";
+}
+.my_input{
+    outline: 0px;
+    border-radius: 0;
+}
+.my_input:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}

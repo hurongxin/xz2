@@ -1,0 +1,38 @@
+.bg-linear{
+    background: linear-gradient(to bottom,#f0f0f0 0%, #e0e0e0 100%);
+}
+.my_input{
+    width: 15%;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+.my_button{
+    width: 1.5rem;
+    height:1.5rem;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: bold 1rem ºÚÌå;
+    color: #fff;
+}
+.page-item+.page-item{
+    margin-left: 0.4rem;
+}
+.page-link{
+    padding: 0.4rem;
+    background: transparent;
+    border-color: #999;
+}
+.page-link:hover{
+    border-color: #0aa1ed;
+}
+.top-dashed{
+    border-top: 1px dashed #e0e0e0;
+}
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}

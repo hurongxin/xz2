@@ -1,0 +1,51 @@
+.carousel-control-next,.carousel-control-prev{
+    width: 4%;
+    height: 20%;
+    top: 40%;
+    background: #aaa;
+    border-radius: 0.25rem;
+}
+@media (min-width: 992px) {
+    .carousel-indicators li{
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+    }
+}
+@media (max-width: 991px) {
+    .carousel-indicators li{
+        width: 0.4rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+}
+.carousel-indicators li.active{
+    background: #0aa1ed;
+}
+.border-bottom{
+    border-bottom-width: 0.15rem !important;
+}
+.top_height{
+    height: 377px;
+    background: #e8e8e8;
+}
+.bottom_height{
+    height: 233px;
+    background: #e8e8e8;
+}
+@media (min-width: 992px) {
+    .d1>img{margin-top: -280px;transition: 1s;}
+}
+@media (max-width: 991px) {
+    .d1>img{margin-top: -330px;transition: 1s;}
+}
+.d2>img{margin-top: -182px;transition: 1s;}
+.d3>img{margin-top: -136px;transition: 1s;}
+.d4>img,.d5>img,.d6>img{transition: 1s;}
+.d1>img:hover,.d2>img:hover,.d3>img:hover,.d4>img:hover,.d5>img:hover,.d6>img:hover{transform: scale(1.1)}
